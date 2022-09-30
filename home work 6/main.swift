@@ -6,8 +6,33 @@
 //
 
 import Foundation
-
 //N1
+print("Vvedite slova cherez probel")
+var readline = readLine()!
+var massivi: [String] = []
+var x = ""
+for i in readline  {
+    if i != "," && i != " " &&  i != "," {
+        x += String(i)
+    }else{
+        massivi.append(x)
+        x = ""
+        
+    }
+}
+var massiv1Sorted = massivi.sorted()
+print(massiv1Sorted)
+
+func getSlovo(slovo:String){
+    
+}
+
+
+
+
+
+
+//N2
 
 var totalArray: [[String]] = [[]]
 
@@ -44,6 +69,53 @@ addToArray(name: readline)
 let readline3 = readLine()!
 addToArray(name: readline)
 
+let readline4 = readLine()!
+addToArray(name: readline)
+
+let readline5 = readLine()!
+addToArray(name: readline)
+
+let readline6 = readLine()!
+addToArray(name: readline)
+let readline7 = readLine()!
+addToArray(name: readline)
+
+let readline8 = readLine()!
+addToArray(name: readline)
+
+let readline9 = readLine()!
+addToArray(name: readline)
+let readline10 = readLine()!
+addToArray(name: readline)
+
+let readline11 = readLine()!
+addToArray(name: readline)
+
+let readline12 = readLine()!
+addToArray(name: readline)
+let readline13 = readLine()!
+addToArray(name: readline)
+
+let readline14 = readLine()!
+addToArray(name: readline)
+
+let readline15 = readLine()!
+addToArray(name: readline)
+
+let readline16 = readLine()!
+addToArray(name: readline)
+
+let readline17 = readLine()!
+addToArray(name: readline)
+
+let readline18 = readLine()!
+addToArray(name: readline)
+let readline19 = readLine()!
+addToArray(name: readline)
+
+let readline20 = readLine()!
+addToArray(name: readline)
+
 print(totalArray)
 
 for (index,item) in totalArray.enumerated(){
@@ -52,4 +124,4 @@ for (index,item) in totalArray.enumerated(){
     }
 }
 
-
+//
